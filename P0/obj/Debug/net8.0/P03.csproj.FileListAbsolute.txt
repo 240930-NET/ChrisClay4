@@ -1,0 +1,15 @@
+c:\Users\akwar\OneDrive\Desktop\240930-NET2\ChrisClay4\P03\bin\Debug\net8.0\P03.exe
+c:\Users\akwar\OneDrive\Desktop\240930-NET2\ChrisClay4\P03\bin\Debug\net8.0\P03.deps.json
+c:\Users\akwar\OneDrive\Desktop\240930-NET2\ChrisClay4\P03\bin\Debug\net8.0\P03.runtimeconfig.json
+c:\Users\akwar\OneDrive\Desktop\240930-NET2\ChrisClay4\P03\bin\Debug\net8.0\P03.dll
+c:\Users\akwar\OneDrive\Desktop\240930-NET2\ChrisClay4\P03\bin\Debug\net8.0\P03.pdb
+c:\Users\akwar\OneDrive\Desktop\240930-NET2\ChrisClay4\P03\obj\Debug\net8.0\P03.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\akwar\OneDrive\Desktop\240930-NET2\ChrisClay4\P03\obj\Debug\net8.0\P03.AssemblyInfoInputs.cache
+c:\Users\akwar\OneDrive\Desktop\240930-NET2\ChrisClay4\P03\obj\Debug\net8.0\P03.AssemblyInfo.cs
+c:\Users\akwar\OneDrive\Desktop\240930-NET2\ChrisClay4\P03\obj\Debug\net8.0\P03.csproj.CoreCompileInputs.cache
+c:\Users\akwar\OneDrive\Desktop\240930-NET2\ChrisClay4\P03\obj\Debug\net8.0\P03.sourcelink.json
+c:\Users\akwar\OneDrive\Desktop\240930-NET2\ChrisClay4\P03\obj\Debug\net8.0\P03.dll
+c:\Users\akwar\OneDrive\Desktop\240930-NET2\ChrisClay4\P03\obj\Debug\net8.0\refint\P03.dll
+c:\Users\akwar\OneDrive\Desktop\240930-NET2\ChrisClay4\P03\obj\Debug\net8.0\P03.pdb
+c:\Users\akwar\OneDrive\Desktop\240930-NET2\ChrisClay4\P03\obj\Debug\net8.0\P03.genruntimeconfig.cache
+c:\Users\akwar\OneDrive\Desktop\240930-NET2\ChrisClay4\P03\obj\Debug\net8.0\ref\P03.dll
