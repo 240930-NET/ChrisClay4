@@ -8,22 +8,22 @@ public class GameLoop
 
     public GameLoop()
     {
-        // Initialize helm objects
+        // Create helm objects
         Helm2 goldHelm = new Helm2 { Color = "Gold", Name = "Golden Helm", Weight = 1 };
         Helm2 wornHelm = new Helm2 { Color = "Brown", Name = "Worn Helm", Weight = 2 };
         Helm2 leadHelm = new Helm2 { Color = "Black", Name = "Lead Helm", Weight = 3 };
 
-        // Initialize chest objects
+        // Create chest objects
         Chest goldChest = new Chest { Color = "Gold", Name = "Golden Chestplate", Weight = 1 };
         Chest wornChest = new Chest { Color = "Brown", Name = "Worn Chestplate", Weight = 2 };
         Chest leadChest = new Chest { Color = "Black", Name = "Lead Chestplate", Weight = 3 };
 
-        // Initialize greave objects
+        // Create greave objects
         Greave goldGreave = new Greave { Color = "Gold", Name = "Golden Greaves", Weight = 1 };
         Greave wornGreave = new Greave { Color = "Brown", Name = "Worn Greaves", Weight = 2 };
         Greave leadGreave = new Greave { Color = "Black", Name = "Lead Greaves", Weight = 3 };
 
-        // Initialize dragon objects
+        // Create dragon objects
         Dragon fireDragon = new Dragon("Fire Dragon", "Golden Helm");
         Dragon oddDragon = new Dragon("Odd Dragon", "Worn Chestplate");
         Dragon earthDragon = new Dragon("Earth Dragon", "Lead Greaves");
@@ -35,6 +35,7 @@ public class GameLoop
         dragonArray = new Dragon[] { fireDragon, oddDragon, earthDragon };
     }
 
+    //Runs the core game loop
     public void Run()
     {
         // Ask user for their name
@@ -64,6 +65,7 @@ public class GameLoop
 
             Hero newHero = new Hero(userName, finalHelmSelection, finalGreaveSelection, finalChestSelection);
 
+            //UI text
             Console.WriteLine($"--- Hero Created! ---\nName: {userName}\nEquipment chosen:\n" + $"1.){newHero.Helm2.Name}\n2.){newHero.Greave.Name}\n3.){newHero.Chest.Name}\n");
             Console.WriteLine("---------------------------------------------------------------------------\n" +
             "Before you embark on your journey, heed these ancient whispers:\n" +
@@ -80,6 +82,7 @@ public class GameLoop
                 Console.WriteLine("Which Dragon would you like to challenge? (Please enter 1, 2, or 3)\n1.) Fire Dragon\n2.) Odd Dragon\n3.) Earth Dragon\n");
                 string? input = Console.ReadLine();
 
+                //Parses the input to an int and checks validity
                 if (int.TryParse(input, out dragonChoice) && (dragonChoice == 1 || dragonChoice == 2 || dragonChoice == 3))
                 {
                     validInput = true;
@@ -106,28 +109,6 @@ public class GameLoop
                     dragonArray[dragonChoice - 1].Fight(newHero);
                     break;
             }
-            // string? dragonInput = Console.ReadLine();
-            // int dragonAnswer;
-            // try
-            // {
-            //     dragonAnswer = Convert.ToInt32(dragonInput);
-            // }
-            // catch (FormatException)
-            // {
-            //     Console.WriteLine("Invalid input. Please enter 1, 2, or 3.");
-            //     continue;
-            // }
-
-            // // Check if the user input is valid
-            // if (dragonAnswer < 1 || dragonAnswer > 3)
-            // {
-            //     Console.WriteLine("Invalid input. Please enter 1, 2, or 3.");
-            // }
-            // else
-            // {
-            //     // Call the Fight method from the Dragon class
-            //     dragonArray[dragonAnswer - 1].Fight(newHero); // Adjusting for 0-based index
-            // }
 
             // Ask user if they would like to play again
             Console.WriteLine("Would you like to play again? (Y/N)");
@@ -139,9 +120,10 @@ public class GameLoop
         }
     }
 
+    // Show the heroes and their scores
     public void ShowHeroes()
     {
-        // Deserialize the JSON file to a list of heroes
+        // Deserialize the JSON file and place it in a list of heroes
         List<Hero> heroes = new List<Hero>();
         string filePath = "heroes.json";
         if (File.Exists(filePath))
@@ -155,6 +137,7 @@ public class GameLoop
             Console.WriteLine("JSON DATA: " + existingJsonString + "\n");
         }
 
+        //ShowHeroes submenu
         Console.WriteLine("--- Menu ---\n1. New Game\n2. Exit");
 
         bool validInput = false;
