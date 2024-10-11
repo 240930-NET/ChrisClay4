@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\akwar\\OneDrive\\Desktop\\240930-NET2\\ChrisClay4\\Test Game\\projectApp\\projectApp.csproj": {}
+    "c:\\Users\\akwar\\OneDrive\\Desktop\\240930-NET2\\ChrisClay4\\Test Game\\projectApp\\projectApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\akwar\\OneDrive\\Desktop\\240930-NET2\\ChrisClay4\\Test Game\\projectApp\\projectApp.csproj": {
+    "c:\\Users\\akwar\\OneDrive\\Desktop\\240930-NET2\\ChrisClay4\\Test Game\\projectApp\\projectApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\akwar\\OneDrive\\Desktop\\240930-NET2\\ChrisClay4\\Test Game\\projectApp\\projectApp.csproj",
+        "projectUniqueName": "c:\\Users\\akwar\\OneDrive\\Desktop\\240930-NET2\\ChrisClay4\\Test Game\\projectApp\\projectApp.csproj",
         "projectName": "projectApp",
-        "projectPath": "C:\\Users\\akwar\\OneDrive\\Desktop\\240930-NET2\\ChrisClay4\\Test Game\\projectApp\\projectApp.csproj",
+        "projectPath": "c:\\Users\\akwar\\OneDrive\\Desktop\\240930-NET2\\ChrisClay4\\Test Game\\projectApp\\projectApp.csproj",
         "packagesPath": "C:\\Users\\akwar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\akwar\\OneDrive\\Desktop\\240930-NET2\\ChrisClay4\\Test Game\\projectApp\\obj\\",
+        "outputPath": "c:\\Users\\akwar\\OneDrive\\Desktop\\240930-NET2\\ChrisClay4\\Test Game\\projectApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\akwar\\AppData\\Roaming\\NuGet\\NuGet.Config"
